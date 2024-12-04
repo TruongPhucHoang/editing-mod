@@ -1,0 +1,66 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": ["armor"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonbone"
+    }
+  },
+  "name": {
+    "text": "Dragon Bone"
+  },
+  "stats": {
+    "main": {
+      "durability": 1660.0,
+      "armor_durability": 1660.0,
+      "enchantability": 22.0,
+      "rarity": 80.0,
+      "chargeability": 1.4,
+      "harvest_level": 4.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 4.0,
+      "magic_damage": 4.0,
+      "attack_speed": -0.4,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.4
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:chipping",
+        "level": 3
+      },
+      {
+	"name": "silentgear:flexible",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#7e7967"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#7e7967"
+      }
+    ]
+  }
+}

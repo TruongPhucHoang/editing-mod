@@ -1,0 +1,59 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": ["tool", "projectile", "curio"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonscales_amythest"
+    }
+  },
+  "name": {
+    "text": "Dragon Scales Amethyst"
+  },
+  "stats": {
+    "main": {
+      "armor_durability": 36.0,
+      "enchantability": 15.0,
+      "rarity": 80.0,
+      "chargeability": 1.4,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "armor": 24.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 12.0
+    }
+  },
+  "traits": {
+    "main": [
+	{
+		"name": "silentgear:sturdy",
+        "level": 3
+    }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#9966cc"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#9966cc"
+      }
+    ]
+  }
+}

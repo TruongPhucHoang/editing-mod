@@ -1,0 +1,67 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    }
+  },
+  "name": {
+    "text": "Lightning Dragonsteel"
+  },
+  "stats": {
+    "main": {
+      "durability": 8000.0,
+      "armor_durability": 160.0,
+      "enchantability": 30.0,
+      "rarity": 100.0,
+      "chargeability": 1.4,
+      "harvest_level": 5.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 21.0,
+      "attack_speed": 0.1,
+      "ranged_damage": 20.0,
+      "ranged_speed": 0.0,
+      "armor": 34.0,
+      "armor_toughness": 24.0,
+      "magic_armor": 15.0
+    }
+  },
+  "traits": {
+    "main": [
+	{	"name": "silentgear:hard",
+        "level": 3
+    },
+	{
+		"name": "dragon_gear_renewed:lightning_damage",
+		"level": 3
+	}
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#8c74a9"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#8c74a9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="40"
+license="MIT"
+[[mods]]
+modId="dragon_gear_revive"
+version="1.19.2"
+displayName="Dragon Gear Revive"
+description='''
+Adds Silent Gear compatibility to Ice and Fire in 1.19.2
+'''
